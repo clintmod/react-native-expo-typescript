@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "es2015",
+      "module": "es2015",
+      "jsx": "react-native",
+      "outDir": "./build/dist",
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": true,
+      "experimentalDecorators": true,
+      "preserveConstEnums": true,
+      "allowJs": false,
+      "sourceMap": true
+    },
+    "exclude": [
+      "index.android.js",
+      "index.ios.js",
+      "./build",
+      "node_modules",
+      "__tests__"
+    ],
+    "compileOnSave": true
+  }
