@@ -32,7 +32,7 @@ export default class App extends React.Component<Props, State> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to React Native Johnny!
         </Text>
         <Text style={styles.instructions}>
           {'To get started, edit src/index.tsx'}
