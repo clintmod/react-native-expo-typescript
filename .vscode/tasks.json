@@ -5,19 +5,21 @@
     "tasks": [
         {
             "type": "npm",
-            "script": "build-and-watch",
+            "script": "test-and-watch",
             "problemMatcher": [],
             "group": {
-                "kind": "build",
+                "kind": "test",
                 "isDefault": true
             }
         },
         {
             "type": "npm",
-            "script": "test-and-watch",
-            "problemMatcher": [],
+            "script": "build-watch",
+            "problemMatcher": [
+                "$tsc"
+            ],
             "group": {
-                "kind": "test",
+                "kind": "build",
                 "isDefault": true
             }
         }
