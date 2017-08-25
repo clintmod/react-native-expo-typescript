@@ -4,8 +4,10 @@
   "private": true,
   "devDependencies": {
     "jest-expo": "~20.0.0",
+    "jest-expo-ts": "https://github.com/dalcib/jest-expo-ts#5a153950874883283e3bc287a25257276d749224",
     "react-native-scripts": "1.2.1",
-    "react-test-renderer": "16.0.0-alpha.12"
+    "react-test-renderer": "16.0.0-alpha.12",
+    "typescript": "^2.4.2"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -20,12 +22,13 @@
     "build-and-test": "yarn build && yarn test"
   },
   "jest": {
-    "preset": "jest-expo"
+    "preset": "jest-expo-ts"
   },
   "dependencies": {
     "@types/react": "^16.0.4",
     "@types/react-native": "^0.47.6",
     "expo": "^20.0.0",
+    "prop-types": "^15.5.10",
     "react": "16.0.0-alpha.12",
     "react-native": "^0.47.0"
   }

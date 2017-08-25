@@ -16,13 +16,17 @@ module.exports = function (wallaby) {
     return {
       files: [
         'src/**/*.js',
+        'src/**/*.ts',
+        'src/**/*.tsx',
         'build/**/*.js',
         '!src/**/*.test.js',
         'App.js'
       ],
   
       tests: [
-        'src/**/*.test.js',
+        'test/**/*.test.js',
+        'test/**/*.test.ts',
+        'test/**/*.test.tsx',
         'App.test.js'
       ],
   
