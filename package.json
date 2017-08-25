@@ -28,7 +28,12 @@
   },
   "jest": {
     "preset": "jest-expo-ts",
-    "mapCoverage": true
+    "mapCoverage": true,
+    "verbose": true,
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/build/"
+    ]
   },
   "dependencies": {
     "@types/jest": "^20.0.8",
