@@ -20,6 +20,8 @@ module.exports = function (wallaby) {
         'src/**/*.tsx',
         'build/**/*.js',
         '!src/**/*.test.js',
+        '!src/**/*.test.ts',
+        '!src/**/*.test.tsx',
         'App.js'
       ],
   
