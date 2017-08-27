@@ -2913,9 +2913,9 @@ jest-environment-node@^20.0.3:
     jest-mock "^20.0.3"
     jest-util "^20.0.3"
 
-"jest-expo-ts@https://github.com/dalcib/jest-expo-ts":
+jest-expo-ts@~20.0.0:
   version "20.0.0"
-  resolved "https://github.com/dalcib/jest-expo-ts#5a153950874883283e3bc287a25257276d749224"
+  resolved "https://registry.yarnpkg.com/jest-expo-ts/-/jest-expo-ts-20.0.0.tgz#78f908cbd7d082c603f23fe62c85439af75c1b86"
   dependencies:
     babel-jest "^20.0.3"
     jest "^20.0.4"
