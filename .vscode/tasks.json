@@ -15,9 +15,7 @@
         {
             "type": "npm",
             "script": "build-watch",
-            "problemMatcher": [
-                "$tsc"
-            ],
+            "problemMatcher": [],
             "group": {
                 "kind": "build",
                 "isDefault": true
