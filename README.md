@@ -58,7 +58,10 @@ This should have the app running on your phone.
 1. It’s important to leave the App.js file at the root of the project. Expo expects it and using `"expo" {"entryPoint":"somethingElse.js"}` in the `app.config` file doesn’t work.
 2. If you see an error like this when running the tests…
 ```
-console.error node_modules/react-native/Libraries/Core/ ExceptionsManager.js:73 Warning: PropTypes has been moved to a separate package. Accessing React.PropTypes is no longer supported and will be removed completely in React 16. Use the prop-types package on npm instead. (https://fb.me/migrating-from-react-proptypes)
+console.error node_modules/react-native/Libraries/Core/ ExceptionsManager.js:73 
+Warning: PropTypes has been moved to a separate package. 
+Accessing React.PropTypes is no longer supported and will be removed completely in React 16. 
+Use the prop-types package on npm instead. (https://fb.me/migrating-from-react-proptypes)
 ```
 … it’s [because of this](https://github.com/react-community/create-react-native-app/issues/298#issuecomment-314569894) and you can ignore it until react 16.0.0 is released.
 
